@@ -43,7 +43,7 @@ def audio_opt(path,uploader="@YouNeedMusicBot"):
         "geo_bypass": True,
         'noplaylist': True,
         "nocheckcertificate": True,
-        "outtmpl": f"{path}/%(title)s - {uploader}.mp3",
+        "outtmpl": f"{path}/%(title)s - {uploader}.mp4",
         "quiet": True
     }
 
